@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".CourseAddActivity">
+
+    <EditText
+        android:id="@+id/et_teachername"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:hint="Input Teacher Name"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_coursename"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:hint="Input Course Name"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/tv_startweek"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:hint="Select Start Week" />
+
+    <TextView
+        android:id="@+id/tv_endweek"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:hint="End Week" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Save" />
+
+</LinearLayout>
